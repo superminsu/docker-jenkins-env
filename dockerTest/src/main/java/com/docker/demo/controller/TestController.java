@@ -12,4 +12,9 @@ public class TestController {
 	public String testDocker() {
 		return "test for docker start";
 	}
+	
+	@GetMapping("third")
+	public String testThirdCommit() {
+		return "third commit";
+	}
 }
